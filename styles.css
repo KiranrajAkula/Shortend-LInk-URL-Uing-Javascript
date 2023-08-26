@@ -1,0 +1,28 @@
+body{
+    background-color: violet;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input{
+    padding: 4px 64px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.btn{
+    padding: 4px;
+    background-color: rgb(191, 220, 27);
+    border-style: none;
+    border: 1px solid rgb(255, 103, 1);
+    color: orangered;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(233, 217, 233);
+}
